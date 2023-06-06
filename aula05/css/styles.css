@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'outfit';
+}
+body{
+    background-color: silver;
+}
+main{
+    background-color: white;
+    width: 60%;
+    margin: 50px auto;
+    border-radius:50px;
+    height: 600px;
+    display: flex;
+}
+h2{
+    font-family: 'Bebas Neue', sans-serif;
+}
+h1{
+    font-size: 50pt;
+}
+#area{
+    background-image: url("../img/astronauta.jpg");
+    background-size: 100%;
+    background-position: 0 -100px;
+    border-top-right-radius:50px ;
+    border-bottom-right-radius:50px ;
+    height: 600px;
+    flex: 1;
+}
+form{
+    flex:1 ;
+    height: 600px;
+}
+#titulo{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+#titulo img{
+    width: 50px;
+    height: 30;
+}
+#elements{
+    text-align: center;
+}
+#buttongoogle{
+    padding:10px;
+    border:1px solid silver;
+    width:60%;
+    margin:10px auto;
+    border-radius: 10px;
+
+}
+#buttongoogle img{
+    width: 150px;
+    height: 20px;
+}
+#elements input[type=text],#elements input[type=password]{
+    display: block;
+    margin: 20px auto;
+    width: 60%;
+    padding:15px;
+    border-radius: 10px;
+    border:1px solid silver
+}
+#separator{
+    font-family: arial;
+}
+#forgot{
+    display: block;
+    width: 60%;
+    margin: 10px auto;
+    text-align: right;
+    color:rgb(14, 74, 206);
+    font-family: arial;
+    font-size:9pt
+}
+#elements input[type=submit]{
+    display: block;
+    margin: 10px auto;
+    width: 60%;
+    color: white;
+    border-radius: 30px;
+    background-color: black;
+    padding:10px;
+    border:0
+}
+
+#register{
+    display: block;
+    width: 60%;
+    margin: 10px auto;
+    text-align: center;
+    font-family: arial;
+    font-size:9pt
+}
+#register span{
+    color:rgb(14, 74, 206);
+}

@@ -1,0 +1,170 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+    /* aplicar uma imagem de fundo com 
+    o comando background-image */
+    background-image:url("../images/backgirl3.jpg");
+    /* largura do header */
+    width:100%;
+    /* altura do header */
+    height:800px;
+    /* não repetir a imagem de fundo */
+    background-repeat: no-repeat;
+    /* alterar o tamanho da imagem de fundo */
+    background-size: 100%;
+    /* alterar a posição do plano de fundo.
+        o primeiro elemento é a posição x e segundo 
+        a posição y */
+    background-position: 0 -200px;
+    /* vamos dispor(display) o conteúdo de forma
+    flexível */
+    display: flex;
+    
+}
+
+header #direita{
+    font-size:200pt;
+    font-family: verdana;
+    /* por em negrito */
+    font-weight: bold;
+    color:black;
+    transform: rotate(-90deg);
+    letter-spacing: -40px;
+    flex: 1;
+    height: 300px;
+    margin-top: 240px;
+    margin-right:-200px ;
+}
+header #esquerda{
+    flex: 5;
+    padding-left: 400px;
+    color:white;
+    font-family: verdana;
+    font-size:30pt;
+    font-weight: bold;
+    padding-top: 150px;
+    text-shadow: 3px 3px 5px black;
+}
+
+header #esquerda span{
+    font-size:20pt
+}
+header #esquerda img{
+    width: 20px;
+    height: 20px;
+    margin: 5px
+}
+header #esquerda #fb, header #esquerda #ig{
+    font-size: 10pt;
+    font-weight: normal;
+    text-shadow: none;
+    padding:10px;
+    display: flex;
+    align-items: center;
+}
+
+header #esquerda #end{
+    font-weight: lighter;
+    font-size: 10pt;
+    line-height: 10pt;
+    display: block;
+}
+header #esquerda #end img{
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+}
+main #programacao{
+    display: flex;
+}
+main #programacao div{
+    flex: 1;
+    font-family: verdana;
+    line-height: 35px;
+    padding:10px
+}
+main #programacao div h4{
+    font-size: 20pt;
+    color:orangered;
+}
+main #programacao div h3{
+    font-size: 30pt;
+    color:darkblue
+}
+main #programacao div p{
+    color: darkblue;
+}
+
+main #programacao div p span{
+    color: orangered;
+    margin: 0 10px;
+}
+main hr{
+    display: block;
+    border-color: orangered;
+    border-width: 1px;
+    width: 55%;
+    margin:10px 0;
+}
+
+main #cursos{
+    display: flex;
+    padding:20px;
+    font-family: Verdana;
+}
+main #cursos div{
+    flex:1
+}
+
+main #cursos div h3{
+    margin-top:50px;
+}
+
+main #cursos div ul{
+    padding-left: 20px;
+}
+
+footer hr{
+    width: 80%;
+    border-color: orangered;
+    border-width: 1px;
+    margin: 20px 0;
+    margin-left: auto;
+    
+}
+footer #rodape{
+    display: flex;
+    font-family: verdana;
+    padding:30px
+}
+footer #rodape div{
+    flex: 1;
+}
+
+footer #rodape h2, footer #rodape h3{
+    color: darkblue;
+    
+}
+footer #rodape div img{
+    width: 20%;
+}
+footer #rodape div span img{
+  
+    width: 300px;
+    height: 150px;
+
+}
+footer #rodape div span {
+    text-align: center;
+    display: block;
+    width: 300px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 200px;
+    margin-top: -200px;
+    color:#00528f;
+}
